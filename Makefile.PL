@@ -8,7 +8,8 @@ WriteMakefile
           'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/App/ZofCMS/Plugin/TOC.pm',
           'PREREQ_PM' => {
-                           'Test::More' => 0
+                           'Test::More' => 0,
+                           'HTML::Template' => '2.9'
                          }
         )
 ;
