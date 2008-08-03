@@ -12,6 +12,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'HTML::Template' => 2.9,
+        'App::ZofCMS' => 0.0103,
     },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-TOC-*' ],
     create_makefile_pl => 'traditional',

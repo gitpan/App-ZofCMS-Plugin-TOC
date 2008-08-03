@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::TOC;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use HTML::Template;
 
