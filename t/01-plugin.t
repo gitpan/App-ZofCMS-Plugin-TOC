@@ -12,5 +12,5 @@ plan skip_all
 
 plugin_ok(
     'TOC',
-    { page_toc => [ qw/#foo #bar #baz/ ], }
+    { page_toc => [ '#foo', '#bar', '#baz' ], }
 );

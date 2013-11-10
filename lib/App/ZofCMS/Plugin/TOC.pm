@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::TOC;
 use warnings;
 use strict;
 
-our $VERSION = '0.0103';
+our $VERSION = '0.0104';
 
 use HTML::Template;
 
@@ -53,6 +53,8 @@ sub _make_entry {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
